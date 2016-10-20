@@ -1,0 +1,11 @@
+{
+  "name": "owl-runner",
+  "dependencies": {
+    "owl": "https://github.com/yunxing/owl",
+    "dependency-env": "https://github.com/reasonml/dependency-env.git",
+    "nopam": "https://github.com/reasonml/nopam.git"
+  },
+  "scripts": {
+    "top": "eval $(dependencyEnv) && nopam && utop"
+  }
+}
